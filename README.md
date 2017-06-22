@@ -28,7 +28,9 @@ bower install
 ```
 Para subir o projeto utilize o http-server um servidor de sua preferência:
 
-```
+--
+
+npm install http-server -g
 http-server
 ```
 

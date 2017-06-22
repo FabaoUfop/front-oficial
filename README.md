@@ -44,6 +44,39 @@ Tire uns 15 minutos para ler [Angular 1.x - John Papa](https://github.com/johnpa
 Utilizamos o [EditorConfig](http://editorconfig.org) por padrão, mas sinta-se a vontade
 para utilizar outra configuração.
 
+## Sugestao das configuraçes para equipes
+
+EditorConfig is awesome: http://EditorConfig.org
+
+top-most EditorConfig file
+
+root = true
+
+Quebra de linhas
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+Definindo charset
+[*.{js,pug,html}]
+charset = utf-8
+
+Indentação via TAB, para pug e html
+[*.{pug,html}]
+indent_style = tab
+indent_size = 4
+
+Arquivos JS e CSS
+[*.{js,css,styl}]
+indent_style = tab
+indent_size = 2
+
+Demais arquivos importantes
+[*.json]
+indent_style = tab
+indent_size = 2
+
+
 ## Suporte
 
 [Abra uma issue](https://github.com/ongbook/front-oficial/issues) para bugs e novas features.
